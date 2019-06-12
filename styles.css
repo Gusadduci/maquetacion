@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+.header {
+
+    width: 1000px;
+    height: 120px;;
+    background-color: rgb(47, 45, 45);
+    position: relative;
+    margin: 20px auto;
+}
+
+.header-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(122, 115, 115);
+}
+
+.header-icono {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 42px;
+    height: 42px;
+    background-color: rgb(122, 115, 115);
+    border-radius: 50%;
+}
+#icono1{
+    top: 42px;
+    right: 121px;
+}
+#icono2 {
+    top: 42px;
+    right: 70px;
+}
+#icono3 {
+    top: 42px;
+    right: 19px;
+}
+
+.nav {
+
+    width: 1000px;
+    height: 48px;;
+    background-color: rgb(156, 154, 154);
+    position: relative;
+    margin: auto;
+
+}
+
+.botones {
+float: left;
+width: 196px;
+height: 48px;
+background-color: rgb(20, 19, 19);
+margin: 0px 2px;
+}
+
+.top {
+    
+    width: 1000px;
+    height: 192px;;
+    background-color: rgb(54, 53, 53);
+    position: relative;
+    margin: 20px auto;
+}
+.top ul {
+    width: 1011px;
+    
+}
+
+.top ul li{
+    float: left;
+    width: 327px;
+    height: 192px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+
+.section {
+
+    width: 1000px;
+    height: 453px;;
+    background-color: rgb(34, 32, 32);
+    position: relative;
+    margin: 20px auto;
+
+}
+
+#izq {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background-color: black;
+}
+#der {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background-color: black;
+}
+article {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background-color: gray;
+}
+
+
+.footer {
+    width: 1000px;
+    height: 70px;;
+    background-color: rgb(95, 95, 95);
+    position: relative;
+    margin: 20px auto;
+}
+
